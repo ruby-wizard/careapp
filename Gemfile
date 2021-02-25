@@ -25,7 +25,8 @@ gem 'jbuilder', '~> 2.7'
 gem 'better_errors', '~> 2.9', '>= 2.9.1'
 # Guard is a command line tool to easily handle events on file system modifications
 gem 'guard', '~> 2.16', '>= 2.16.2'
-
+# Bootstrap HTML SASS
+gem 'bootstrap', '~> 4.6'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
