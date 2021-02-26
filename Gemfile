@@ -49,6 +49,7 @@ group :development do
 	# Makes errors better looking
 	gem 'better_errors', '~> 2.9', '>= 2.9.1'
 	gem 'binding_of_caller'
+	gem 'prettier', '~> 1.5', '>= 1.5.2'
 end
 
 group :test do
