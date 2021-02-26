@@ -21,12 +21,12 @@ gem 'jbuilder', '~> 2.7'
 # gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
-# Makes errors better looking
-gem 'better_errors', '~> 2.9', '>= 2.9.1'
 # Guard is a command line tool to easily handle events on file system modifications
 gem 'guard', '~> 2.16', '>= 2.16.2'
 # Bootstrap HTML SASS
 gem 'bootstrap', '~> 4.6'
+#bootstrap javascript depends on jQuery
+gem 'jquery-rails'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
@@ -46,6 +46,9 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
+	# Makes errors better looking
+	gem 'better_errors', '~> 2.9', '>= 2.9.1'
+	gem 'binding_of_caller'
 end
 
 group :test do
